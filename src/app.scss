@@ -12,6 +12,13 @@ html {
 
 body {
     font-family: "Gilda Display", sans-serif;
+    font-weight: 400;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
