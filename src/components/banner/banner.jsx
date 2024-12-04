@@ -1,10 +1,11 @@
 import React from "react";
 import { BannerStyled } from "./banner.styled";
+import bannerImage from "../../img/headerImage.jpg";
 
 export const Banner = () => {
     return (
         <BannerStyled>
-            <img src="./src/img/headerImage.jpg" />
+            <img src={bannerImage} />
             <h1>Under the Moon</h1>
             <div>
                 <h2>Hairstylist og frisør</h2>

@@ -5,5 +5,11 @@ export const HeaderStyled = styled.header`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url("./src/img/headerImage.jpg") no-repeat center center/cover;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
 `;
