@@ -1,25 +1,25 @@
-import { NavBarStyled, NavList, NavItem, NavLink } from "./navbar.styled.js";
+import { NavBarStyled } from "./navbar.styled.js";
 
 export const NavBar = () => {
-    return (
-        <NavBarStyled bgcolor="#262626">
-            <NavList>
-                <NavItem>
-                    <NavLink href="#">Hjem</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink href="#">Koncepter</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink href="#">Utm Loyalty</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink href="#">Om</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink href="#">Kontakt</NavLink>
-                </NavItem>
-            </NavList>
-        </NavBarStyled>
-    );
+  return (
+    <NavBarStyled>
+      <ul>
+        <li>
+          <a href="#">Hjem</a>
+        </li>
+        <li>
+          <a href="#">Koncepter</a>
+        </li>
+        <li>
+          <a href="#">Utm Loyalty</a>
+        </li>
+        <li>
+          <a href="#">Om</a>
+        </li>
+        <li>
+          <a href="#">Kontakt</a>
+        </li>
+      </ul>
+    </NavBarStyled>
+  );
 };
