@@ -11,6 +11,7 @@ export const InformationStyled = styled.section`
 
     h2 {
         text-transform: uppercase;
+        text-align: center;
     }
 
     p {
@@ -28,5 +29,17 @@ export const InformationStyled = styled.section`
         border: 1px solid #1f1f1f;
         text-decoration: none;
         color: #000;
+    }
+
+    @media screen and (max-width: 680px) {
+        gap: 2rem;
+
+        h2 {
+            font-size: 5vw;
+        }
+
+        p {
+            font-size: 2.5vw;
+        }
     }
 `;

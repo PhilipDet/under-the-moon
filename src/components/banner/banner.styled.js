@@ -37,7 +37,6 @@ export const BannerStyled = styled.section`
         }
 
         p {
-            font-size: 1.4rem;
             color: #fff;
             max-width: 430px;
         }

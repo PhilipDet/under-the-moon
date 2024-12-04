@@ -10,6 +10,7 @@ export const CardStyled = styled.div`
     color: #fff;
     text-align: center;
     height: 33rem;
+    padding: 1.5rem;
 
     h3 {
         margin-bottom: 1.5rem;
