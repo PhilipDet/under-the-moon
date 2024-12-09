@@ -8,7 +8,7 @@ export const Footer = () => {
                     <h3>Subscribe to newsletter</h3>
                     <input type="text" placeholder="Full name" />
                     <input type="email" placeholder="Email" />
-                    <input type="button" value="Sign Up" />
+                    <button>Sign Up</button>
                 </section>
                 <section id="links-container">
                     <section id="left">

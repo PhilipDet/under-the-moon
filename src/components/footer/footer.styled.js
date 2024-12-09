@@ -29,7 +29,7 @@ export const FooterStyled = styled.footer`
             border: none;
         }
 
-        input[type="button"] {
+        button {
             background-color: #1f1f1f;
             padding: 1rem 4rem;
             color: #fff;
