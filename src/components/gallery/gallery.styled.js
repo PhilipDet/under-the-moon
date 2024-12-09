@@ -10,8 +10,13 @@ export const GalleryStyled = styled.section`
     a {
         color: #000;
         font-size: 3.2rem;
+        text-decoration: none;
         text-transform: uppercase;
         text-align: center;
+
+        &:hover {
+            text-decoration: underline;
+        }
 
         @media screen and (max-width: 520px) {
             font-size: 6vw;
